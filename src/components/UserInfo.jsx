@@ -3,7 +3,7 @@ import { UserContext } from "../UserContext";
 export default function UserInfo() {
   const { user, setUser } = useContext(UserContext);
   const elflaco = () => {
-    setUser(prev => prev = "Cortázar");
+    setUser(prev => prev = "Julio Cortázar");
   };
   return (
     <section className='info'>
